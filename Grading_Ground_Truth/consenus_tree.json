@@ -1,0 +1,181 @@
+{
+  "root": "J10",
+  "node_count": 23,
+  "edge_count": 22,
+  "nodes": [
+    {
+      "name": "L4",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L6",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "J0",
+      "kind": "junction",
+      "level": 0.004494434294033667,
+      "children": [
+        "L4",
+        "L6"
+      ]
+    },
+    {
+      "name": "L16",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L66",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "J1",
+      "kind": "junction",
+      "level": 0.047762633871580105,
+      "children": [
+        "L16",
+        "L66"
+      ]
+    },
+    {
+      "name": "L85",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L75",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L100",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L104",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "J2",
+      "kind": "junction",
+      "level": 0.008523810175300638,
+      "children": [
+        "L100",
+        "L104"
+      ]
+    },
+    {
+      "name": "J3",
+      "kind": "junction",
+      "level": 0.012962618664049685,
+      "children": [
+        "L75",
+        "J2"
+      ]
+    },
+    {
+      "name": "J4",
+      "kind": "junction",
+      "level": 0.2853658735946664,
+      "children": [
+        "L85",
+        "J3"
+      ]
+    },
+    {
+      "name": "J5",
+      "kind": "junction",
+      "level": 0.4825839690718697,
+      "children": [
+        "J1",
+        "J4"
+      ]
+    },
+    {
+      "name": "L50",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L32",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L24",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L30",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "J6",
+      "kind": "junction",
+      "level": 0.005236375149220152,
+      "children": [
+        "L24",
+        "L30"
+      ]
+    },
+    {
+      "name": "J7",
+      "kind": "junction",
+      "level": 0.054902223061649734,
+      "children": [
+        "L32",
+        "J6"
+      ]
+    },
+    {
+      "name": "J8",
+      "kind": "junction",
+      "level": 2.2370113164597587,
+      "children": [
+        "L50",
+        "J7"
+      ]
+    },
+    {
+      "name": "J9",
+      "kind": "junction",
+      "level": 4.556685026839796,
+      "children": [
+        "J5",
+        "J8"
+      ]
+    },
+    {
+      "name": "J10",
+      "kind": "junction",
+      "level": 11.454154958008173,
+      "children": [
+        "J0",
+        "J9"
+      ]
+    }
+  ],
+  "metadata": {
+    "source": "L41_bode_samples.csv"
+  }
+}

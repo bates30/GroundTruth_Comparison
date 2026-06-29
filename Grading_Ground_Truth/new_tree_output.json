@@ -1,0 +1,142 @@
+{
+  "root": "J150",
+  "node_count": 18,
+  "edge_count": 17,
+  "nodes": [
+    {
+      "name": "J1",
+      "kind": "junction",
+      "level": 0.0,
+      "children": [
+        "J13",
+        "L4",
+        "L6"
+      ]
+    },
+    {
+      "name": "J13",
+      "kind": "junction",
+      "level": 0.0,
+      "children": [
+        "J18",
+        "L100",
+        "L104",
+        "L16",
+        "L66",
+        "L75",
+        "L85"
+      ]
+    },
+    {
+      "name": "J18",
+      "kind": "junction",
+      "level": 0.0,
+      "children": [
+        "J40",
+        "L24",
+        "L30",
+        "L32"
+      ]
+    },
+    {
+      "name": "J40",
+      "kind": "junction",
+      "level": 0.0,
+      "children": [
+        "L41",
+        "L50"
+      ]
+    },
+    {
+      "name": "J150",
+      "kind": "junction",
+      "level": 0.0,
+      "children": [
+        "J1"
+      ]
+    },
+    {
+      "name": "L4",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L6",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L16",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L24",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L30",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L32",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L41",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L50",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L66",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L75",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L85",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L100",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    },
+    {
+      "name": "L104",
+      "kind": "leaf",
+      "level": 0.0,
+      "children": []
+    }
+  ],
+  "metadata": {
+    "source": "new_leaf_structure_tree.py",
+    "source_node": 150,
+    "split_nodes": []
+  }
+}
