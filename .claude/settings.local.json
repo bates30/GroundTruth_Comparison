@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python approach3_tree_comparison.py)"
-    ]
-  }
-}
